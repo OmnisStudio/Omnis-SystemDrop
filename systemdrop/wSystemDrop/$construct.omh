@@ -1,0 +1,4 @@
+# Enter your initialization code here
+
+Do iDropFiles.$define(iFilename,iFilesize,iFileext,iIsfile,iFileData,iFileDataDisplayString)
+Calculate iOSDropLimit as $clib.$prefs.$osdroplimit

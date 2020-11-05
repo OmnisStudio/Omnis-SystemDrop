@@ -1,0 +1,10 @@
+On evDrop
+	Do iDropFiles.$merge(pDragValue)
+	For iDropFiles.$line from 1 to iDropFiles.$linecount step 1
+		Do iDropFiles.$loadcols()
+		If binlength(iFileData)
+			Calculate iDropFiles.iFileDataDisplayString as con('(',binlength(iFileData),' bytes)')
+		End If
+	End For
+	
+	Do $cinst.$redraw()

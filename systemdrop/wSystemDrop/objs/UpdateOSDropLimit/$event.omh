@@ -1,0 +1,6 @@
+On evClick ## Event Parameters - pRow( Itemreference )
+	Do $clib.$prefs.$osdroplimit.$assign(iOSDropLimit)
+	
+	# re-open window to apply new $osdroplimit
+	Close window instance $cinst
+	Open window instance wSystemDrop/*/CEN
