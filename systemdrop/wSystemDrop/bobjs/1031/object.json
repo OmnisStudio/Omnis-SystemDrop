@@ -21,7 +21,7 @@
 		"objlink": 0,
 		"text": {
 			"type": 14,
-			"calc": "Drag files from your system onto the list control below as defined in properties dropmode and osdropflags, file data is recieved if within the OS Drop Limit."
+			"calc": "Drag files from your system onto the list control below as defined in properties dropmode and osdropflags, file data is received if within the OS Drop Limit."
 		},
 		"textcolor": "kColorWindowText",
 		"top": 55,
